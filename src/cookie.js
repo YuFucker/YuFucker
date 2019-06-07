@@ -1,2 +1,3 @@
-const { CookieJar } = require("tough-cookie");
+const { CookieJar } = require('tough-cookie');
+
 module.exports = new CookieJar();
