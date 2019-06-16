@@ -1,7 +1,7 @@
 module.exports = {
-  bell: () => {
+  bell: (interval = 0.5) => {
     new Array(5).fill('\x07').map((value, index) => setTimeout(() => {
       console.log(value);
-    }, index * 500));
+    }, index * interval * 1000));
   },
 };
