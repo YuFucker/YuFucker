@@ -11,7 +11,7 @@
     "got": "^9.6.0",
     "open": "^6.3.0",
     "tough-cookie": "^3.0.1",
-    "ws": "^7.0.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
